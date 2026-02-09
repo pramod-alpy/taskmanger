@@ -46,13 +46,13 @@ cp .env.example .env
 ```
 php artisan key:generate
 ```
-6️⃣ Configure Database in .env
+6️⃣ Configure Database in .env - Add your database Username and Password here.
 ```
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
 DB_DATABASE=task_manager
-DB_USERNAME=root
+DB_USERNAME=
 DB_PASSWORD=
 ```
 8️⃣ Run Migrations
