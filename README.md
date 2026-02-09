@@ -49,7 +49,7 @@ php artisan key:generate
 6️⃣ Configure Database in .env
 ```
 DB_CONNECTION=mysql
-DB_HOST=localhost
+DB_HOST=127.0.0.1
 DB_PORT=3306
 DB_DATABASE=task_manager
 DB_USERNAME=root
