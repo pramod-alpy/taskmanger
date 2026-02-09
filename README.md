@@ -1,8 +1,25 @@
 
 Task Manager App
 
-This web application built with Laravel.While logging in to the system, user can Add/Edit Task under the given projects. Default Seeders will automatically add Projects like School Management & Inventory Management.
+This is a simple Task Management Web Application built using Laravel.
 
+After logging into the system, users can Add, Edit, and Manage Tasks under different projects. The application includes default seeders that automatically create sample projects such as:
+
+
+* School Management
+
+* Inventory Management
+
+
+Additionally, dummy tasks are seeded for demonstration purposes.
+
+Users can:
+
+* Drag and drop tasks to reorder them
+
+* Automatically update task priority based on order
+
+* Filter tasks based on selected criteria
 
 
 📦 Installation
@@ -69,4 +86,19 @@ npm run dev
 * Other: Composer, npm
 
 
+
+
+✨ Screenshots
+
+Task List Page
+
+![Task -List ](screenshots/task-list.png)
+
+Add Task
+
+![Add Task under School Management](screenshots/AddTask.png)
+
+Edit Task
+
+![Edit Task](screenshots/EditTask.png)
 
